@@ -1,0 +1,11 @@
+---
+format: docx
+---
+
+With every increasing marker, our computational challenges increase. Within Cytometry, the programming language R is where many of the cutting edge approaches are initially prototyped, and where methods of unsupervised analysis are implemented. 
+
+While many cytometry enthusiast express an interest in learning how to carry out flow cytometry analyses in R, they often do not know where to start. Additionally, many of the limited existing resources are focused towards users with intermediate bioinformatic skills, contributing to a greater barrier for entry for those just starting out. 
+
+To address this, we set out to give a Cytometry In R course, aimed at those with flow cytometry experience, but no-to-little coding experience. It was offered multiple times a week, both in-person and via livestream to a global audience of 1200+. All livestream recordings and course materials are available online, and we have a vibrant community forming in the Discussions Forum. 
+
+The barrier has been breached, join us! 
