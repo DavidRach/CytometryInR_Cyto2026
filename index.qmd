@@ -2,10 +2,16 @@
 format: docx
 ---
 
-With every increasing marker, our computational challenges increase. Within Cytometry, the programming language R is where many of the cutting edge approaches are initially prototyped, and where methods of unsupervised analysis are implemented. 
+Cytometry in R: A free virtual course for beginners
 
-While many cytometry enthusiast express an interest in learning how to carry out flow cytometry analyses in R, they often do not know where to start. Additionally, many of the limited existing resources are focused towards users with intermediate bioinformatic skills, contributing to a greater barrier for entry for those just starting out. 
+David Rach1,2, Natarajan Ayinathan2, Xiaoxuan Fan2
 
-To address this, we set out to give a Cytometry In R course, aimed at those with flow cytometry experience, but no-to-little coding experience. It was offered multiple times a week, both in-person and via livestream to a global audience of 1200+. All livestream recordings and course materials are available online, and we have a vibrant community forming in the Discussions Forum. 
+With every increasing marker, the complexity of analysing cytometry data increases. Within our community, many cutting-edge analysis tacking these issues start off as open-source R packages. It is within these that ideas new unsupervised methods are prototyped, new methods are tried out, and debates about what better approach are had. 
 
-The barrier has been breached, join us! 
+While many cytometyr enthusiast express an interest in learning how to carry out their flow cytometry analyses in R, they often don't know where to start. This alongside that a programming mindset required to learn how to code well is not something many biologist encounter previously. Combined with that the limiting existing resources are focused primarily toward users with intermediate bioinformatic skills, the barrier to entry is to high for those just starting out. 
+
+Having been in the same shoes back when we first started in 2020, we have set out to lower this barrier to entry for the community. We have been running a "Cytometry in R" virtual course, offered both in-person and virtually starting in January 2026. It was advertised on the Cytometry Discord, r/flowcytometry reddit, LinkedIn and the Purdue list. The interest was outstanding and 1200 individuals quickly registered for updates. 
+
+The course is designed for those with flow cytometry experience, but no-to-little coding experience. It is being offered multiple times per week, with all livestream recordings made available via YouTube. All course materials and datasets are made available through the course GitHub repository. Leveraging the Discussions Forum, and the GitHub Pulll/Merge request, we have additional avenues for individuals to get feedback as they navigate through the course, lessening the isolation when something doesn't work. 
+
+This course has exceeded our wildest expectations, and will be nearing competion at the time for Cyto 2026. All resources will be available in perpetuity, allowing for others to learn at their own pace. All course materials are offered under a free copyleft license and CC-BY-SA, and we encourage anyone who wants to extend the framework to contribute to it. The barrier to entry has been breached, there has never been a better time to learn, join us!
