@@ -1,0 +1,19 @@
+---
+format: docx
+---
+
+# Financial Need
+
+I officially transitioned to becoming SRL staff in September, as my thesis lab support ended due to running out of funds. With the current fiscal climate, like many academic cores across the US, usage is down as our user-base struggles with grants not being renewed/reviewed. While we are fortunate to still be breaking even, there is institutional belt tightening as we track the drop in revenue. Receiving a travel award would help defray cost associated with travel, and given that I am already very frugal when attending conferences, make it possible to attend even in the event that staff self-improvement funds are slashed by the institution for this upcomming year. 
+
+# Why Attend Cyto
+
+This would be my third in-person Cyto conference (although first as SRL staff). What continues to draw me back is 1) the community itself (where else can you find as many cytometry afficionados all in a single place), and 2) being struck by how different my experience/take-aways are each time I attend, and how these inevitably lead to new areas of exploration.
+
+For example, since Denver, it has been a productive year. In addition to continued analysis and writeup of the datasets acquired during my PhD (as well as improvements to the R packages presented at the last Cyto), I officially joined the Flow Core staff (while waiting for my fiance to graduate and decide on her post-doc). This was in part thanks to sessions of initially cursory interest that I attended back in Montreal, that became major interest by Denver, which led to hitting the ground running. There is also an element of looking for community feedback and being able to ask questions of those with prior experience. I currently find myself in the middle of 1) cell sorting nuances in context of our 64-color sort project; 2) automating our systems to track/identify issue before they happen; and 3) various virtual educational outreach projects. While the Cytometry Discord, r/flowcytometry Reddit, and Purdue listserv  are amazing for getting community assistance, sometimes you just need to be able to track down someone in person. 
+
+Given the uncertainty of where we will be working at or if we will be able to travel internationally for Cyto 2027, attending this year in person while it is relatively nearby is likely the wisest decision. 
+
+
+
+ 
