@@ -2,11 +2,11 @@
 format: docx
 ---
 
-Cytometry in R: A free weekly mini-course for coding beginners.
+Cytometry in R: A free weekly course for coding beginners
 
 David Rach1,2, Natarajan Ayithan2, Xiaoxuan Fan2 1 Molecular Microbiology and Immunology Graduate Program, University of Maryland School of Medicine, Baltimore, USA 2 Flow Cytometry Shared Resource, University of Maryland Greenebaum Comprehensive Cancer Center, Baltimore, USA
 
-As spectral flow cytometry panels continue to expand in complexity, comprehensive analysis of the resulting high-dimensional datasets becomes increasingly challenging. Tthe identification of previously uncharacterized cell populations within this multidimensional space remains a significant obstacle. To address this, both semi-supervised and unsupervised analytical approaches are required to enable unbiased discovery of cell subsets. Many of these advanced computational methods and algorithmic frameworks are implemented and readily accessible through R-based packages. 
+As spectral flow cytometry panels continue to expand in complexity, comprehensive analysis of the resulting high-dimensional datasets becomes increasingly challenging. The identification of previously uncharacterized cell populations within this multidimensional space remains a significant obstacle. To address this, both semi-supervised and unsupervised analytical approaches are required to enable unbiased discovery of cell subsets. Many of these advanced computational methods and algorithmic frameworks are implemented and readily accessible through R-based packages. 
 
 While cytometry enthusiasts often express interests in learning R, significant barriers to learning exist. For those without access to institutional computational cytometry expertise, the question is often where to start. As the few existing online resources are primarily aimed at those with intermediate bioinformatic skills, self-study attempts often end in frustration due to lack of beginner suitable materials and troubleshooting support. 
 
