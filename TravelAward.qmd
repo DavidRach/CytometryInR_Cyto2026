@@ -1,0 +1,14 @@
+
+# Why I want to attend BioC
+
+I am applying for the travel award because finances are nebulous as I transition from being a PhD to becoming a postdoc. As my thesis lab ran out of funds, I started working at the flow cytometry core while wrapping up my dissertation writing. Given the current fiscal climate, like many academic shared resource facilities, our user-base usage is down and consequently there has been institutional belt tightening. Receiving a travel award would help defray the cost associated with travel, and given I am very frugal when attending conferences, make it possible to attend in the event that the staff self-improvement funds are slashed by the institution between now and then. 
+
+More broadly, this would be my first time presenting at BioC. I attended Boston and Grand Rapids on my own dime, and was immediately 
+
+
+
+What continues to draw me back is 1) the community itself (where else can you find as many cytometry afficionados all in a single place), and 2) being struck by how different my experience/take-aways are each time I attend, and how these inevitably lead to new areas of exploration.
+
+For example, since Denver, it has been a productive year. In addition to continued analysis and writeup of the datasets acquired during my PhD (as well as improvements to the R packages presented at the last Cyto), I officially joined the Flow Core staff (while waiting for my fiance to graduate and decide on her post-doc). This was in part thanks to sessions of initially cursory interest that I attended back in Montreal, that became major interest by Denver, which led to hitting the ground running. There is also an element of looking for community feedback and being able to ask questions of those with prior experience. I currently find myself in the middle of 1) cell sorting nuances in context of our 64-color sort project; 2) automating our systems to track/identify issue before they happen; and 3) various virtual educational outreach projects. While the Cytometry Discord, r/flowcytometry Reddit, and Purdue listserv  are amazing for getting community assistance, sometimes you just need to be able to track down someone in person. 
+
+Given the uncertainty of where I might be next year, and that Seattle has
