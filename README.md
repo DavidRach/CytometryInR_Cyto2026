@@ -16,6 +16,8 @@ Launched in February 2026, the course has generated substantial community intere
 
 The course is comprehensive, with over 30 weeks of topics planned, intended to provide beginners solid foundations in R before moving on to intermediate and advanced cytometry topics as their coding skills and troubleshooting expertise develops. As all recordings and teaching materials will remain freely available after course completion, we hope to significantly reduce the existing barriers to analyzing cytometry data in R, permitting anyone who starts their own self-study journey in the future has a smoother journey than the one we ourselves experienced when first getting started. 
 
+# Poster
+
 This is the repository for our Cyto 2026 "Cytometry in R" late-breaker poster. 
 
 Click [here]() to navigate to the .pdf of the poster, which can be downloaded. 

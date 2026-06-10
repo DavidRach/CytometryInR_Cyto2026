@@ -75,11 +75,13 @@ library(dplyr)
 ```
 
 ```{r}
+#| eval: FALSE
 Location <- file.path("/home", "david", "Documents", "CytometryInR_Metrics", "outputs")
 files <- list.files(Location, pattern=".txt", full.names=TRUE)
 ```
 
 ```{r}
+#| eval: FALSE
 input_file <- files[5]
 output_dir <- file.path("poster", "outputs", "Improve")
 
@@ -100,6 +102,7 @@ message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
 ```
 
 ```{r}
+#| eval: FALSE
 input_file <- files[3]
 output_dir <- file.path("poster", "outputs", "Favorite")
 
@@ -120,6 +123,7 @@ message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
 ```
 
 ```{r}
+#| eval: FALSE
 input_file <- files[2]
 output_dir <- file.path("poster", "outputs", "DoneWell")
 
@@ -140,6 +144,7 @@ message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
 ```
 
 ```{r}
+#| eval: FALSE
 input_file <- files[1]
 output_dir <- file.path("poster", "outputs", "Additional")
 
