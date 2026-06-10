@@ -1,0 +1,160 @@
+---
+title: "Survey Comments"
+format: html
+---
+
+```{r}
+library(ggplot2)
+library(stringr)
+library(dplyr)
+```
+
+```{r}
+    parse_comments <- function(filepath) {
+    raw <- readLines(filepath, warn = FALSE)
+    raw <- raw[nzchar(trimws(raw))]          # drop blank lines
+
+    records <- list()
+    i <- 1
+    while (i <= length(raw)) {
+        country_line <- raw[i]
+        comment_line <- if (i + 1 <= length(raw)) raw[i + 1] else ""
+
+        country <- str_trim(str_remove(country_line, "^Country:\\s*"))
+        comment <- str_trim(str_remove(comment_line, "^Comment:\\s*"))
+
+        records[[length(records) + 1]] <- list(country = country, comment = comment)
+        i <- i + 2
+    }
+    records
+    }
+
+    render_comment_png <- function(country, comment, out_path, width = 800, height = 450) {
+
+    # Wrap comment text to ~60 chars per line
+    wrapped <- str_wrap(comment, width = 60)
+
+    p <- ggplot() +
+        # Card background
+        annotate("rect",
+                xmin = 0, xmax = 1, ymin = 0, ymax = 1,
+                fill = "#1a1a2e", color = NA) +
+        # Accent bar
+        annotate("rect",
+                xmin = 0, xmax = 0.006, ymin = 0, ymax = 1,
+                fill = "#e94560", color = NA) +
+        # Quote mark
+        annotate("text",
+                x = 0.08, y = 0.82,
+                label = "\u201c",
+                hjust = 0, vjust = 1,
+                size = 28, color = "#e94560", fontface = "bold") +
+        # Comment body
+        annotate("text",
+                x = 0.08, y = 0.62,
+                label = wrapped,
+                hjust = 0, vjust = 1,
+                size = 5.2, color = "#eaeaea",
+                lineheight = 1.45) +
+        # Country label
+        annotate("text",
+                x = 0.08, y = 0.12,
+                label = paste0("\u2014 ", country),
+                hjust = 0, vjust = 0,
+                size = 5, color = "#e94560", fontface = "bold") +
+        coord_cartesian(xlim = c(0, 1), ylim = c(0, 1), expand = FALSE) +
+        theme_void() +
+        theme(plot.background = element_rect(fill = "#1a1a2e", color = NA))
+
+    ggsave(out_path, plot = p,
+            width = width / 96, height = height / 96, dpi = 96,
+            bg = "#1a1a2e")
+
+    message("Saved: ", out_path)
+    }
+```
+
+```{r}
+Location <- file.path("/home", "david", "Documents", "CytometryInR_Metrics", "outputs")
+files <- list.files(Location, pattern=".txt", full.names=TRUE)
+```
+
+```{r}
+input_file <- files[5]
+output_dir <- file.path("poster", "outputs", "Improve")
+
+dir.create(output_dir, showWarnings = FALSE)
+
+comments <- parse_comments(input_file)
+
+for (idx in seq_along(comments)) {
+  entry    <- comments[[idx]]
+  filename <- file.path(output_dir,
+                        sprintf("comment_%02d_%s.png",
+                                idx,
+                                gsub("[^a-zA-Z0-9]", "_", entry$country)))
+  render_comment_png(entry$country, entry$comment, filename)
+}
+
+message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
+```
+
+```{r}
+input_file <- files[3]
+output_dir <- file.path("poster", "outputs", "Favorite")
+
+dir.create(output_dir, showWarnings = FALSE)
+
+comments <- parse_comments(input_file)
+
+for (idx in seq_along(comments)) {
+  entry    <- comments[[idx]]
+  filename <- file.path(output_dir,
+                        sprintf("comment_%02d_%s.png",
+                                idx,
+                                gsub("[^a-zA-Z0-9]", "_", entry$country)))
+  render_comment_png(entry$country, entry$comment, filename)
+}
+
+message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
+```
+
+```{r}
+input_file <- files[2]
+output_dir <- file.path("poster", "outputs", "DoneWell")
+
+dir.create(output_dir, showWarnings = FALSE)
+
+comments <- parse_comments(input_file)
+
+for (idx in seq_along(comments)) {
+  entry    <- comments[[idx]]
+  filename <- file.path(output_dir,
+                        sprintf("comment_%02d_%s.png",
+                                idx,
+                                gsub("[^a-zA-Z0-9]", "_", entry$country)))
+  render_comment_png(entry$country, entry$comment, filename)
+}
+
+message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
+```
+
+```{r}
+input_file <- files[1]
+output_dir <- file.path("poster", "outputs", "Additional")
+
+dir.create(output_dir, showWarnings = FALSE)
+
+comments <- parse_comments(input_file)
+
+for (idx in seq_along(comments)) {
+  entry    <- comments[[idx]]
+  filename <- file.path(output_dir,
+                        sprintf("comment_%02d_%s.png",
+                                idx,
+                                gsub("[^a-zA-Z0-9]", "_", entry$country)))
+  render_comment_png(entry$country, entry$comment, filename)
+}
+
+message("Done! ", length(comments), " PNG(s) written to '", output_dir, "/'.")
+```

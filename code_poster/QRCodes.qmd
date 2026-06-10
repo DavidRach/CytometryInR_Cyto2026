@@ -1,0 +1,436 @@
+---
+title: "QR Codes"
+format: html
+---
+
+
+This page was used to generate the QR codes needed for our Cyto 2026 poster using the `qrcode` R package. 
+
+```{r}
+library(qrcode)
+```
+
+
+# Helper Function
+
+```{r}
+QR_Helper <- function(url, output, filename){
+
+code <- qr_code(url)
+
+TheFileName  <- paste0(filename, ".svg")
+
+StoreHere <- file.path(output, TheFileName)
+
+generate_svg(code, filename = StoreHere)
+#plot(code)
+}
+```
+
+# Homepage
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/",
+    output="outputs", 
+    filename="Homepage")
+```
+
+# Schedule
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html",
+    output="outputs", 
+    filename="Schedule")
+```
+
+# UsingGitHub
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/00_GitHub/",
+    output="outputs", 
+    filename="UsingGithub")
+```
+
+# Installing R Packages
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/01_InstallingRPackages/",
+    output="outputs", 
+    filename="InstallingRPackages")
+```
+
+# FilePaths
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/02_FilePaths/",
+    output="outputs", 
+    filename="FilePaths")
+```
+
+# InsideFCSFile
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/03_InsideFCSFile/",
+    output="outputs", 
+    filename="InsideFCSFile")
+```
+
+# IntroTidyverse
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/04_IntroToTidyverse/",
+    output="outputs", 
+    filename="IntroTidyverse")
+```
+
+# GatingSets
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/05_GatingSets/",
+    output="outputs", 
+    filename="GatingSets")
+```
+
+# Visualizing_ggplot2
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/06_Visualizing/",
+    output="outputs", 
+    filename="Visualizing_ggplot2")
+```
+
+# Transformations
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/07_Transformations/",
+    output="outputs", 
+    filename="Transformations")
+```
+
+# WaysToGate
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/08_WaysToGate/",
+    output="outputs", 
+    filename="WaysToGate")
+```
+
+# RainingFunctions
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/09_Functions/",
+    output="outputs", 
+    filename="RainingFunctions")
+```
+
+# Downsampling
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/10_Downsampling/",
+    output="outputs", 
+    filename="Downsampling")
+```
+
+# DataForStats
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/11_DataForStats/",
+    output="outputs", 
+    filename="DataForStats")
+```
+
+# Yet to Be completed
+
+# Spectral Signatures
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#spectral-signatures",
+    output="outputs", 
+    filename="SpectralSignatures")
+```
+
+# Similarities and Hotspots
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#similarities-and-hotspots",
+    output="outputs", 
+    filename="SimilaritiesHotspots")
+```
+
+# Unmixing
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#unmixing-in-r",
+    output="outputs", 
+    filename="Unmixing")
+```
+
+# Cleaning
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#cleaning-algorithms",
+    output="outputs", 
+    filename="Cleaning")
+```
+
+# Clustering
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#clustering-algorithms",
+    output="outputs", 
+    filename="Clustering")
+```
+
+# Normalizing
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#normalization-batch-effect-or-real-biology",
+    output="outputs", 
+    filename="Normalizing")
+```
+
+# Dimensionality
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#dimensionality-visualization",
+    output="outputs", 
+    filename="Dimensionality")
+```
+
+# Annotation
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#annotating-unsupervised-clusters",
+    output="outputs", 
+    filename="Annotation")
+```
+
+# GitHub
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#the-art-of-github-diving",
+    output="outputs", 
+    filename="GitHubDiving")
+```
+
+# XML
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#xml-files-all-the-way-down",
+    output="outputs", 
+    filename="XMLAllWayDown")
+```
+
+# Bioconductor
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#utilizing-bioconductor-packages",
+    output="outputs", 
+    filename="Bioconductor")
+```
+
+# First R Package
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#building-your-first-r-package",
+    output="outputs", 
+    filename="FirstRPackage")
+```
+
+# Quarto Website
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#everyone-gets-a-quarto-website",
+    output="outputs", 
+    filename="QuartoWebsite")
+```
+
+# Reproducibility
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#reproducibility-and-replicability",
+    output="outputs", 
+    filename="Reproducibility")
+```
+
+# OpenSoureLicense
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#open-source-licenses",
+    output="outputs", 
+    filename="OpenSourceLicenses")
+```
+
+# Validating
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#validating-algorthmic-tools",
+    output="outputs", 
+    filename="Validating")
+```
+
+# Databases
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#databases-and-repositories",
+    output="outputs", 
+    filename="Databases")
+```
+
+# Assembling Web
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#assembling-web-data",
+    output="outputs", 
+    filename="AssemblingWeb")
+```
+
+# Future
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Schedule.html#future-directions",
+    output="outputs", 
+    filename="Future")
+```
+
+# Survey Link
+
+```{r}
+QR_Helper(url="https://docs.google.com/forms/d/e/1FAIpQLScfh8ibMF3ldyM2W2jGZGX09j2fYcI3isiboKWi3UQ31b9OdQ/viewform?usp=publish-editor",
+    output="outputs", 
+    filename="Survey2")
+
+```
+
+# YouTube
+
+```{r}
+QR_Helper(url="https://www.youtube.com/@CytometryInR",
+    output="outputs", 
+    filename="YouTube")
+
+```
+
+# Discussions
+
+```{r}
+QR_Helper(url="https://github.com/UMGCCCFCSR/CytometryInR/discussions",
+    output="outputs", 
+    filename="Discussions")
+
+```
+
+
+# GitHub
+
+```{r}
+QR_Helper(url="https://github.com/UMGCCCFCSR/CytometryInR",
+    output="outputs", 
+    filename="GitHub")
+
+```
+
+
+# Homeworks
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Homeworks.html",
+    output="outputs", 
+    filename="Homeworks")
+
+```
+
+
+
+# FlowCore
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/course/03_InsideFCSFile/#flowcore",
+    output="outputs", 
+    filename="flowCore")
+
+```
+
+# Defense
+
+```{r}
+QR_Helper(url="https://www.youtube.com/live/K7iae7IWS24?si=lKUIVsOkYWC6Rurn",
+    output="outputs", 
+    filename="Defense")
+
+```
+
+# Announcements
+
+```{r}
+QR_Helper(url="https://umgcccfcsr.github.io/CytometryInR/Announcements.html",
+    output="outputs", 
+    filename="Announcements")
+
+```
+
+# AGPL3
+
+```{r}
+QR_Helper(url="https://www.gnu.org/licenses/agpl-3.0.en.html",
+    output="outputs", 
+    filename="AGPL3")
+
+```
+
+
+# CC-BY-SA
+
+```{r}
+QR_Helper(url="https://creativecommons.org/licenses/by-sa/4.0/",
+    output="outputs", 
+    filename="CCBYSA")
+https://discord.gg/ZmyPYUQr9Q
+```
+
+# Discord
+
+```{r}
+QR_Helper(url="https://discord.gg/ZmyPYUQr9Q",
+    output="outputs", 
+    filename="Discord")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
