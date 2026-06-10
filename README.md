@@ -20,7 +20,7 @@ The course is comprehensive, with over 30 weeks of topics planned, intended to p
 
 This is the repository for our Cyto 2026 "Cytometry in R" late-breaker poster. 
 
-Click [here]() to navigate to the .pdf of the poster, which can be downloaded. 
+Click [here](/DavidRach_FinalCyto2026.pdf) to navigate to the .pdf of the poster, which can be downloaded. 
 
 For our Cytometry in R course, click [here](https://umgcccfcsr.github.io/CytometryInR/course/). 
 
