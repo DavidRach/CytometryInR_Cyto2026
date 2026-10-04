@@ -1,3 +1,5 @@
 poster/
 /.quarto/
 poster/DavidRach_CYTOPoster2026.svg
+
+**/*.quarto_ipynb

@@ -28,6 +28,15 @@ generate_svg(code, filename = StoreHere)
 }
 ```
 
+
+# Bioconductor Zulip
+
+```{r}
+
+QR_Helper(url="https://community-bioc.zulipchat.com/join/4k2tpsy7h6zjbaduydwm2n56/",
+    output="outputs", 
+    filename="BioconductorZulip")
+```
 # Homepage
 
 ```{r}
