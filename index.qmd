@@ -27,7 +27,7 @@ Launched in February 2026, the course has generated substantial community intere
 The course is comprehensive, with over 30 weeks of topics planned, intended to provide beginners solid foundations in R before moving on to intermediate and advanced cytometry topics as their coding skills and troubleshooting expertise develops. As all recordings and teaching materials will remain freely available after course completion, we hope to significantly reduce the existing barriers to analyzing cytometry data in R, permitting anyone who starts their own self-study journey in the future has a smoother journey than the one we ourselves experienced when first getting started. 
 
 [Code](https://github.com/DavidRach/CytometryInR_Cyto2026) 
-[Poster](https://davidrach.github.io/CytometryInR_Cyto2026/DavidRach_FinalCyto2026.pdf) 
+[Poster](/DavidRach_FinalCyto2026.pdf) 
 [Recording](https://youtu.be/dmuI-FguAsY?si=W6T6VtysBMRPVBT0)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dmuI-FguAsY?si=caSX7bo5XFD8eANT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
