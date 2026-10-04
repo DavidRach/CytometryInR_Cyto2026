@@ -1,10 +1,8 @@
-# Abstract
+## Abstract
 
 **Cytometry in R: A free weekly course for coding beginners**
 
-David Rach1,2, Natarajan Ayithan2, Xiaoxuan Fan2
-
-*1 Molecular Microbiology and Immunology Graduate Program, University of Maryland School of Medicine, Baltimore, USA 2 Flow Cytometry Shared Resource, University of Maryland Greenebaum Comprehensive Cancer Center, Baltimore, USA*
+David Rach1,2, Natarajan Ayithan2, Xiaoxuan Fan2 1 Molecular Microbiology and Immunology Graduate Program, University of Maryland School of Medicine, Baltimore, USA 2 Flow Cytometry Shared Resource, University of Maryland Greenebaum Comprehensive Cancer Center, Baltimore, USA
 
 As spectral flow cytometry panels continue to expand in complexity, comprehensive analysis of the resulting high-dimensional datasets becomes increasingly challenging. The identification of previously uncharacterized cell populations within this multidimensional space remains a significant obstacle. To address this, both semi-supervised and unsupervised analytical approaches are required to enable unbiased discovery of cell subsets. Many of these advanced computational methods and algorithmic frameworks are implemented and readily accessible through R-based packages. 
 
@@ -16,20 +14,13 @@ Launched in February 2026, the course has generated substantial community intere
 
 The course is comprehensive, with over 30 weeks of topics planned, intended to provide beginners solid foundations in R before moving on to intermediate and advanced cytometry topics as their coding skills and troubleshooting expertise develops. As all recordings and teaching materials will remain freely available after course completion, we hope to significantly reduce the existing barriers to analyzing cytometry data in R, permitting anyone who starts their own self-study journey in the future has a smoother journey than the one we ourselves experienced when first getting started. 
 
-# Poster
+[Code](https://github.com/DavidRach/CytometryInR_Cyto2026) 
+[Poster](https://davidrach.github.io/CytometryInR_Cyto2026/DavidRach_FinalCyto2026.pdf) 
+[Recording](https://youtu.be/dmuI-FguAsY?si=W6T6VtysBMRPVBT0)
 
-This is the repository for our Cyto 2026 "Cytometry in R" late-breaker poster. 
-
-Click [here](/DavidRach_FinalCyto2026.pdf) to navigate to the .pdf of the poster, which can be downloaded. 
-
-For our Cytometry in R course, click [here](https://umgcccfcsr.github.io/CytometryInR/course/). 
-
-# GitHub Repository organization. 
-
-Within this GitHub repository due to size limits, we are unable to provide the .svg files that were used to create the poster in [Inkscape](https://inkscape.org/), feel free to reach out to the UMGCCC Flow Cytometry Shared Resource email ("flowcore", "@", "som.umaryland.edu") to get a sharable copy. 
-
-The code to generate QR codes and extract survey comments in R can be found under the code_poster folder. Actual QR codes generated can be found under outputs folder. Images used that were brought in from other sources can be found in the images folder. 
-
-# License
+## License
 
 In our commitment to open-science and open-source, all teaching materials are freely offered under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license, while all code examples are offered under the [AGPL3-0](https://www.gnu.org/licenses/agpl-3.0.en.html) copyleft license. 
+
+<br>
+<br>
